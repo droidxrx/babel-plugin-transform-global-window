@@ -4,15 +4,22 @@
     "description": "Transforms previously module scoped variables into globally scoped window properties",
     "main": "index.js",
     "homepage": "https://github.com/droidxrx",
-    "repository": "https://github.com/droidxrx/babel-plugin-transform-global-window",
-    "author": "DroidXrX",
-    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/droidxrx/babel-plugin-transform-global-window.git"
+    },
+    "bugs": {
+        "url": "https://github.com/droidxrx/babel-plugin-transform-global-window/issues",
+        "email": "droidxrx@gmail.com"
+    },
+    "author": "DroidXrX <droidxrx@gmail.com> (https://github.com/droidxrx)",
+    "license": "MIT <LICENSE>",
     "keywords": [
         "babel",
         "babel-plugin",
-        "globalthis",
         "babel-plugin-transform-global",
-        "transform",
-        "global"
+        "global",
+        "globalthis",
+        "transform"
     ]
 }
