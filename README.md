@@ -7,13 +7,9 @@ Transforms previously module scoped variables into globally scoped window proper
 This is a [Node.js](https://nodejs.org/en/) module available through the
 [npm registry](https://www.npmjs.com/).
 
-<div class="bg-pre-me">
-
 ```bash
 npm install --save-dev babel-plugin-transform-global-window
 ```
-
-</div>
 
 ```bash
 yarn add --dev babel-plugin-transform-global-window
@@ -21,7 +17,7 @@ yarn add --dev babel-plugin-transform-global-window
 
 **Input**
 
-```Javascript {r class.source="bg-danger", class.output="bg-warning"}
+```Javascript
 const myvar1 = "MyVar1";
 let myvar2 = "MyVar2";
 const arrfun = () => 1 + 1;
