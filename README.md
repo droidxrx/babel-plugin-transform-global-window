@@ -1,12 +1,18 @@
-### Babel plugin transform global window
+## Babel plugin transform global window
 
 Transforms previously module scoped variables into globally scoped window properties
 
-### Install
+## Installation
 
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/).
+
+```bash
+npm install --save-dev babel-plugin-transform-global-window
 ```
-NPM: npm install --save-dev babel-plugin-transform-global-window
-Yarn: yarn add --dev babel-plugin-transform-global-window
+
+```bash
+yarn add --dev babel-plugin-transform-global-window
 ```
 
 **Input**
@@ -15,7 +21,9 @@ Yarn: yarn add --dev babel-plugin-transform-global-window
 const myvar1 = "MyVar1";
 let myvar2 = "MyVar2";
 const arrfun = () => 1 + 1;
-function myFun(params) {}
+function myFun() {
+    return 1 + 1;
+}
 class myClass {}
 ```
 
@@ -24,8 +32,13 @@ class myClass {}
 ```javascript
 const myvar1 = "MyVar1";
 let myvar2 = "MyVar2";
+
 const arrfun = () => 1 + 1;
-function myFun(params) {}
+
+function myFun() {
+    return 1 + 1;
+}
+
 class myClass {}
 
 window.myvar1 = myvar1;
