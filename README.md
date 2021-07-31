@@ -19,7 +19,7 @@ yarn add --dev babel-plugin-transform-global-window
 
 Add to .babelrc
 
-```javascript
+```json
 {
     "plugins": ["babel-plugin-transform-global-window"];
 }
