@@ -15,6 +15,16 @@ npm install --save-dev babel-plugin-transform-global-window
 yarn add --dev babel-plugin-transform-global-window
 ```
 
+## Usage
+
+Add to .babelrc
+
+```javascript
+{
+    "plugins": ["babel-plugin-transform-global-window"];
+}
+```
+
 **Input**
 
 ```Javascript
