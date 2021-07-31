@@ -1,0 +1,17 @@
+{
+    "name": "babel-plugin-transform-global-window",
+    "version": "1.0.0",
+    "description": "Transforms previously module scoped variables into globally scoped window properties",
+    "main": "index.js",
+    "repository": "https://github.com/droidxrx/babel-plugin-transform-global-window",
+    "author": "DroidXrX",
+    "license": "MIT",
+    "scripts": {
+        "test": "babel test/input.js --plugins=babel-plugin-transform-global-window --out-file test/output.js"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.14.8",
+        "@babel/core": "^7.14.8",
+        "babel-plugin-transform-global-window": "./"
+    }
+}
