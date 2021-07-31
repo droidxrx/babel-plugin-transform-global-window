@@ -13,7 +13,7 @@
         "email": "droidxrx@gmail.com"
     },
     "author": "DroidXrX <droidxrx@gmail.com> (https://github.com/droidxrx)",
-    "license": "MIT <LICENSE>",
+    "license": "MIT",
     "keywords": [
         "babel",
         "babel-plugin",
