@@ -21,7 +21,7 @@ Add to .babelrc
 
 ```json
 {
-    "plugins": ["babel-plugin-transform-global-window"];
+    "plugins": ["babel-plugin-transform-global-window"]
 }
 ```
 
