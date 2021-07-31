@@ -7,7 +7,7 @@ Transforms previously module scoped variables into globally scoped window proper
 This is a [Node.js](https://nodejs.org/en/) module available through the
 [npm registry](https://www.npmjs.com/).
 
-<div style="background-color: rgb(50, 50, 50);">
+<div class="bg-pre-me">
 
 ```bash
 npm install --save-dev babel-plugin-transform-global-window
